@@ -26,7 +26,7 @@ from accelerators_create_instances import *
 def main():
 
     # Create task stream coming from the CPU
-    # testbench = Parse(BASE+'/testbench/tests/sanity/testArithmetic.asm')
+    testbench = Parse(BASE+'/testbench/tests/sanity/testArithmetic.asm')
     # testbench = Parse(BASE+'/testbench/tests/sanity/testBranch.asm')
     # testbench = Parse(BASE+'/testbench/tests/sanity/testLoop.asm')
     # testbench = Parse(BASE+'/testbench/tests/sanity/testMemory.asm')
@@ -44,7 +44,7 @@ def main():
 
     # Applications
     # testbench = Parse(BASE+'/testbench/tests/applications/MM/asm/simple_mm.asm')
-    testbench = Parse(BASE+'/testbench/tests/applications/MM/asm/tiled_mm.asm')
+    # testbench = Parse(BASE+'/testbench/tests/applications/MM/asm/tiled_mm.asm')
     # testbench = Parse(BASE+'/testbench/tests/applications/LU/asm/cgetrf_lud_algorithm.asm')
     #Need two test case to complete the lud algorithm
     #testbench = Parse(BASE+'/testbench/tests/applications/LU/asm/cgetrf_lud_algorithm.asm')
