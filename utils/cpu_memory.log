@@ -1,0 +1,42 @@
+======== CPU MEMORY LOG ========
+CACHE sets=64 ways=8 cl_size=64 cl_bits=6
+======== START STORE-1 ========
+L1 STORE=0 NT=0 addr=1234 length=4 cl_id=19 sets=64 location=-1
+L1 CACHED [195700223, 2988, 637468672, 196224511, 2996, 637468672, 196748799, 3004]
+L1 MISS self->LOAD=1 addr=1216 length=64 cl_id=19 set_id=19
+L2 CACHED [125042696, 1593835644, 31744, 1681653764, 616960, 2080375652, 418816, 1778385020]
+L2 MISS self->LOAD=1 addr=1216 length=64 cl_id=19 set_id=19
+L2 REPLACED cl_id=1778385020 invalid=1 dirty=0
+L1 REPLACED cl_id=3004 invalid=1 dirty=0
+======== END STORE-1 ========
+======== START LOAD-2 ========
+L1 CACHED [1870099488, 1953391981, 1696621665, 1679848558, 544501614, 543515753, 1852142961, 1869901682]
+L1 MISS self->LOAD=2 addr=2232 length=4 cl_id=34 set_id=34
+L2 CACHED [2080381308, 156672, 1778385020, 427572224, 2080375658, 57016330, 1946158180, 99072]
+L2 MISS self->LOAD=2 addr=2176 length=64 cl_id=34 set_id=34
+L2 REPLACED cl_id=99072 invalid=1 dirty=0
+L1 REPLACED cl_id=1869901682 invalid=1 dirty=0
+======== END LOAD-2 ========
+======== START STORE-3 ========
+L1 STORE=2 NT=0 addr=1336 length=4 cl_id=20 sets=64 location=-1
+L1 CACHED [637468672, 197273087, 3012, 11987200, -385875968, 14952, 1516765184, 152]
+L1 MISS self->LOAD=3 addr=1280 length=64 cl_id=20 set_id=20
+L2 CACHED [56900608, 1677724255, 9, 538970624, 1634301033, 1852793632, 544367980, 544104736]
+L2 MISS self->LOAD=3 addr=1280 length=64 cl_id=20 set_id=20
+L2 REPLACED cl_id=544104736 invalid=1 dirty=0
+L1 REPLACED cl_id=152 invalid=1 dirty=0
+======== END STORE-3 ========
+======== START LOAD-4 ========
+L1 CACHED [-385875967, 112232, 0, 1090519050, -1879048182, -1644288, 1936025699, 1701536609]
+L1 MISS self->LOAD=4 addr=1500 length=4 cl_id=23 set_id=23
+L2 CACHED [1949330533, 1684104562, 1818586734, 1920401408, 1851877475, 731214, 1946157056, 1802396002]
+L2 MISS self->LOAD=4 addr=1472 length=64 cl_id=23 set_id=23
+L2 REPLACED cl_id=1802396002 invalid=1 dirty=0
+L1 REPLACED cl_id=1701536609 invalid=1 dirty=0
+======== END LOAD-4 ========
+======== START LOAD-5 ========
+L1 HIT self->LOAD=5 addr=2232 cl_id=34 set_id=34
+======== END LOAD-5 ========
+======== START LOAD-6 ========
+L1 HIT self->LOAD=6 addr=1500 cl_id=23 set_id=23
+======== END LOAD-6 ========

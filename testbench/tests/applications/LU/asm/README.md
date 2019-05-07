@@ -1,0 +1,1 @@
+The ASM code is toned version of the cpp code. It has only the basic funtionalities to make the LU decomposition work. However, it does not have functionalities for initalization and other preprocessing steps.

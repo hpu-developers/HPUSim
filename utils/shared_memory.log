@@ -1,0 +1,30 @@
+======== SHARED MEMORY LOG ========
+CACHE sets=512 ways=8 cl_size=64 cl_bits=6
+======== START STORE-1 ========
+L2 STORE=0 NT=0 addr=1234 length=4 cl_id=19 sets=512 location=-1
+L2 CACHED [1539623737, 519661474, 92478990, 245724586, -1641202337, 1341950785, 845683027, 1445875744]
+L2 MISS self->LOAD=1 addr=1216 length=64 cl_id=19 set_id=19
+L2 REPLACED cl_id=1445875744 invalid=1 dirty=0
+======== END STORE-1 ========
+======== START LOAD-2 ========
+L2 CACHED [1691736548, 1569388470, 1281337707, -1017038253, 2039409585, 2089564495, 354442345, -1949304064]
+L2 MISS self->LOAD=2 addr=2232 length=4 cl_id=34 set_id=34
+L2 REPLACED cl_id=-1949304064 invalid=1 dirty=0
+======== END LOAD-2 ========
+======== START STORE-3 ========
+L2 STORE=2 NT=0 addr=1336 length=4 cl_id=20 sets=512 location=-1
+L2 CACHED [-1065757990, -154720908, 1170822398, 453083521, -2010538634, 178653080, -640025141, -853033662]
+L2 MISS self->LOAD=3 addr=1280 length=64 cl_id=20 set_id=20
+L2 REPLACED cl_id=-853033662 invalid=1 dirty=0
+======== END STORE-3 ========
+======== START LOAD-4 ========
+L2 CACHED [2012833488, 321787819, 1590984366, -1249429514, 370833598, -1457269573, -906057287, -558851960]
+L2 MISS self->LOAD=4 addr=1500 length=4 cl_id=23 set_id=23
+L2 REPLACED cl_id=-558851960 invalid=1 dirty=0
+======== END LOAD-4 ========
+======== START LOAD-5 ========
+L2 HIT self->LOAD=5 addr=2232 cl_id=34 set_id=34
+======== END LOAD-5 ========
+======== START LOAD-6 ========
+L2 HIT self->LOAD=6 addr=1500 cl_id=23 set_id=23
+======== END LOAD-6 ========

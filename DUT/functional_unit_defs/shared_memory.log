@@ -1,0 +1,11 @@
+======== SHARED MEMORY LOG ========
+CACHE sets=512 ways=8 cl_size=64 cl_bits=6
+======== START STORE-1 ========
+L2 STORE=0 NT=0 addr=10 length=4 cl_id=0 sets=512 location=-1
+L2 CACHED [0, -1493668655, 0, -47, 0, 16777223, 8, 1328]
+L2 MISS self->LOAD=1 addr=0 length=64 cl_id=0 set_id=0
+L2 REPLACED cl_id=1328 invalid=1 dirty=0
+======== END STORE-1 ========
+======== START STORE-2 ========
+L2 STORE=1 NT=0 addr=14 length=4 cl_id=0 sets=512 location=0
+======== END STORE-2 ========

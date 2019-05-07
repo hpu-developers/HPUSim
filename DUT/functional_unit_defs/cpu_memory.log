@@ -1,0 +1,11 @@
+======== CPU MEMORY LOG ========
+CACHE sets=64 ways=8 cl_size=64 cl_bits=6
+======== START STORE-1 ========
+L1 STORE=0 NT=0 addr=2 length=4 cl_id=0 sets=64 location=-1
+L1 CACHED [0, 1919905262, 0, 247908078, 249069904, 248879224, 249069952, 249070000]
+L1 MISS self->LOAD=1 addr=0 length=64 cl_id=0 set_id=0
+L2 CACHED [0, -1493668626, 0, -18, 0, 16777223, 8, 1328]
+L2 MISS self->LOAD=1 addr=0 length=64 cl_id=0 set_id=0
+L2 REPLACED cl_id=1328 invalid=1 dirty=0
+L1 REPLACED cl_id=249070000 invalid=1 dirty=0
+======== END STORE-1 ========
