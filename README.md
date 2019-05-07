@@ -36,7 +36,7 @@ vim system.log
 ```
 ## Authors
 
-* **Karthik Hedge**
+* **Kartik Hegde**
 * **Abhishek Srivastava**
 * **Vikram Sharma Mailthody**
 
