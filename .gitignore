@@ -1,0 +1,6 @@
+HPU/__pycache__/
+*pyc
+*.log
+cpu_memory.log
+shared_memory.log
+
