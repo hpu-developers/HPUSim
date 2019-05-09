@@ -37,8 +37,8 @@ vim system.log
 
 ## Paper
 
-* [HPU presentation](https://drive.google.com/drive/u/1/folders/11lX9wqMb38Q_ITvljSP9s4zXRoaEX3_j)
-* [HPU paper](https://drive.google.com/drive/u/1/folders/11lX9wqMb38Q_ITvljSP9s4zXRoaEX3_j)
+* [HPU presentation](https://drive.google.com/file/d/1jCZyesPIkvGOQXVfBFvXxnnxtRne3rFo/view?usp=sharing)
+* [HPU paper](https://drive.google.com/file/d/1VxmC-HLrOGRqOZLnNoo0JMxq-pZDfpzq/view?usp=sharing)
 
 ## Authors
 
