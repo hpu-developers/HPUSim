@@ -34,6 +34,12 @@ python testbench/simulate.py
 # view simulation log
 vim system.log
 ```
+
+## Paper
+
+* [HPU presentation](shorturl.at/dovQT)
+* [HPU paper](shorturl.at/ehuvM)
+
 ## Authors
 
 * **Kartik Hegde**
